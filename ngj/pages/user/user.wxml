@@ -1,0 +1,23 @@
+<view>
+	<view class="logo">
+		<image src="../../static/assets/logo.png" mode=""/>
+
+	</view>
+	<view class="login">
+		<button class="button phone" open-type="getPhoneNumber" >
+		<text class="icon icon-phone">手机号快捷登录</text>
+		</button>
+		<view class="extra">
+			<view class="caption">
+				<text>其他登录方式</text>
+			</view>
+			<view class="options">
+			<button>
+				<text class="icon icon-phone"> 模拟快捷登录</text>
+			</button>
+			</view>
+		</view>
+	</view>
+	<!-- <switch type="checkbox" class="tips" model:checked="{{ischecked}}"> 登录/注册即视为你同意<navigator>《服务条款》</navigator>和<navigator>《农耕记隐私协议》</navigator></switch> -->
+	<protocol checked="{{ischecked}}" bind:changeChecked="checkedData"  />
+</view>

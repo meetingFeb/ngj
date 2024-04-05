@@ -1,0 +1,47 @@
+{
+  "entryPagePath": "pages/index/index",
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/camera/camera",
+    "pages/details/details"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "农耕记",
+    "navigationBarBackgroundColor": "#709070",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#efefef",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "selectedColor": "#709070",
+    "color": "#666",
+    "backgroundColor": "#efefef",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/icons/index.png",
+        "selectedIconPath": "/static/icons/index_color.png"
+      },
+      {
+        "text": "识别",
+        "pagePath": "pages/camera/camera",
+        "iconPath": "/static/icons/camera.png",
+        "selectedIconPath": "/static/icons/camera_color.png"
+      },
+      {
+        "text": "用户",
+        "pagePath": "pages/user/user",
+        "iconPath": "/static/icons/user.png",
+        "selectedIconPath": "/static/icons/user_color.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

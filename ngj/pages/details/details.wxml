@@ -1,0 +1,17 @@
+<!--pages/datails/details.wxml-->
+<view>  
+<text>识别结果：</text><text class="predict">{{predict}}</text>  
+  <image src="{{imageSrc}}" mode="aspectFit"></image>  
+  <view class="suggestion">
+  这里写病虫害原因
+  </view>
+  <view class="suggestion">
+  这里写症状
+  </view>
+  <view class="suggestion">
+  这里写侵染循环
+  </view>
+  <view class="suggestion">
+  这里是防治建议
+  </view>
+</view>

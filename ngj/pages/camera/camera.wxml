@@ -1,0 +1,24 @@
+<!--pages/camera/camera.wxml-->
+<view class="camera">
+	<view class="nav-bar">
+		<view class="span"><text>玉米病虫害识别</text></view>
+	</view>
+	<image class="shili" src="../../static/assets/shili.jpg" mode="" />
+	<view class="sperate">
+		<view class="line left-line"></view>
+		<view class="text-container">
+			<text class="center-text">操作说明</text>
+		</view>
+		<view class="line right-line"></view>
+	</view>
+	<view>
+		<view><text>1、点击上传图片按钮添加图片，可调用摄像头拍照或上传手机相册照片，尽量使用相机拍摄。</text></view>
+		<view><text>2、上传完成点击开始识别，等待识别结果</text></view>
+		<view><text>3.识别成功后点击框选窗可弹出玉米病虫害介绍弹窗。</text></view>
+		<view><text>4.点击重新上传按钮可重新上传图片识别。</text> </view>
+		<view><text class="notice">注意：此功能仅用于识别玉米病虫害，请上传带有玉米病虫害，并且清晰的图片。请勿上传无关或者图片仅包含部分病虫害特征的图片。</text></view>
+		<button class="photo" bindtap="chooseImage">
+			<image src="../../static/icons/camera.png" mode="" />开始识别
+		</button>
+	</view>
+</view>

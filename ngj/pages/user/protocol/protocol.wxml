@@ -1,0 +1,16 @@
+<!--pages/user/protocol.wxml-->
+<view class="protocol-container">
+	<view class="protocol-box">
+		
+			<checkbox checked="{{isChecked}}" bind:tap="updatrChecked" />
+			<view class="protocol-label" ><text bind:tap="updatrChecked">登录/注册即视为你同意</text>
+				<navigator url="/pages/index/index" open-type="switchTab" hover-class="none">
+					<text style="color: blue;">《服务条款》</text>
+				</navigator>
+				<navigator >
+					<text style="color: blue;">《农耕记隐私协议》</text>
+				</navigator>
+			</view>
+		
+	</view>
+</view>

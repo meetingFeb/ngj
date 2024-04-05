@@ -1,0 +1,90 @@
+<!--index.wxml-->
+<!-- 轮播图 -->
+<view class="swiper">
+<swiper 
+autoplay
+interval="2000"
+indicator-dots
+circular
+indicator-color="#fff"
+indicator-active-color="#797"
+>
+	<swiper-item>
+		<image src="../../static/assets/swiper001.jpg" mode=""/>
+	</swiper-item>
+	<swiper-item>
+		<image src="../../static/assets/swiper002.jpg" mode=""/>
+	</swiper-item>
+	<swiper-item>
+		<image src="../../static/assets/swiper003.jpg" mode=""/>
+	</swiper-item>
+	<swiper-item>
+		<image src="../../static/assets/swiper004.jpg" mode=""/>
+	</swiper-item>
+</swiper>
+</view>
+
+<!-- 产品导航 -->
+<view class="nav">
+
+<view><image src="../../static/icons/shibie.png" mode=""/><text>病虫识别</text></view>
+<view><image src="../../static/icons/jilu.png" mode=""/><text>识别记录</text></view>
+<view><image src="../../static/icons/zhongzhi.png" mode=""/><text>玉米种植</text></view>
+<view><image src="../../static/icons/zhishiku.png" mode=""/><text>知识库</text></view>
+</view>
+
+<!-- 玉米病虫害知识库 -->
+<view class="info">
+	<view class="info-bar">
+		<view class="span"><text>常见玉米病虫害</text></view>
+		<span>
+		<navigator class="info-more"><text>更多</text> <image src="../../static/icons/youjiantou.png" mode=""/></navigator>
+		</span>
+	</view>
+	<view class="info-container">
+	<view class="info-container-items">
+		<view><image src="../../static/assets/swiper001.jpg" mode=""/></view>
+		<view><text>玉米锈病</text></view>
+	</view>
+	<view class="info-container-items">
+		<view><image src="../../static/assets/swiper001.jpg" mode=""/></view>
+		<view><text>玉米锈病</text></view>
+	</view>
+	<view class="info-container-items">
+		<view><image src="../../static/assets/swiper001.jpg" mode=""/></view>
+		<view><text>玉米锈病</text></view>
+	</view>
+	<view class="info-container-items">
+		<view><image src="../../static/assets/swiper001.jpg" mode=""/></view>
+		<view><text>玉米锈病</text></view>
+	</view>
+	</view>
+</view>
+
+<!-- 玉米种植知识库 -->
+<view class="info">
+	<view class="info-bar">
+		<view class="span"><text>玉米病虫害知识库</text></view>
+		<span>
+		<navigator class="info-more"><text>更多</text> <image src="../../static/icons/youjiantou.png" mode=""/></navigator>
+		</span>
+	</view>
+	<view class="info-container">
+	<view class="info-container-items">
+		<view><image src="../../static/assets/swiper001.jpg" mode=""/></view>
+		<view><text>玉米锈病</text></view>
+	</view>
+	<view class="info-container-items">
+		<view><image src="../../static/assets/swiper001.jpg" mode=""/></view>
+		<view><text>玉米锈病</text></view>
+	</view>
+	<view class="info-container-items">
+		<view><image src="../../static/assets/swiper001.jpg" mode=""/></view>
+		<view><text>玉米锈病</text></view>
+	</view>
+	<view class="info-container-items">
+		<view><image src="../../static/assets/swiper001.jpg" mode=""/></view>
+		<view><text>玉米锈病</text></view>
+	</view>
+	</view>
+</view>

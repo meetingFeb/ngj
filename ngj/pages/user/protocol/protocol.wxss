@@ -1,0 +1,37 @@
+/* pages/user/protocol.wxss */
+.protocol-box {
+	display: flex;
+	align-items: center;
+	font-size: small;
+}
+
+.protocol-label {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.hover-color-change {
+	/* 指定触摸时的颜色，例如 */
+	color: rgba(0, 0, 255, 0.5);
+}
+
+/*复选框没有选中时默认的样式 */
+.protocol-box .wx-checkbox-input {
+	width: 24rpx !important;
+	height: 24rpx !important;
+	border-radius: 50% !important;
+	border: 1px solid #06c05f !important
+}
+
+/*复选框选中时默认的样式 */
+
+.protocol-box .wx-checkbox-input-checked {
+	background-color: #06c05f !important;
+}
+
+/*复选框选中时 √ 样式 */
+
+.protocol-box .wx-checkbox-input.wx-checkbox-input-checked:before {
+	font-size: 30rpx;
+	color: #fff !important;
+}

@@ -1,0 +1,67 @@
+/* pages/camera/camera.wxss */
+.camera {
+	background-color: #fff;
+	padding: 10rpx;
+}
+
+.nav-bar {
+	display: inline-block;
+	height: 40rpx;
+	border-radius: 5rpx;
+	border-left: 5px solid #797;
+	margin: 0 20rpx 0 20rpx;
+	padding: 5rpx 0 10rpx 10rpx;
+}
+
+.shili {
+	width: 700rpx;
+	height: 700rpx;
+}
+
+.sperate {
+	display: flex;
+	align-items: center;
+	/* 可选，如果需要垂直居中 */
+	justify-content: space-around;
+
+}
+
+.line {
+	height: 2rpx;
+	width: 30%;
+	background-color: rgb(124, 122, 122);
+}
+
+.text-container {
+	width: 150rpx;
+}
+
+.photo {
+
+	height: 100rpx;
+	position: fixed;
+	/* 使用 fixed 定位 */
+	bottom: 0;
+	/* 设置距离底部为0，使按钮固定在底部 */
+	left: 200rpx;
+	background-color: #28bb9c;
+	color: #fff;
+	border-radius: 16rpx;
+	/* 添加圆角效果（可选） */
+	width: 自定义宽度;
+	/* 根据需求设置宽度 */
+	z-index: 99;
+	/* 可能需要设置一个较高的 z-index 值，防止被其他元素遮挡 */
+
+}
+
+.photo image {
+	width: 50rpx;
+	height: 50rpx;
+}
+
+.photo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
